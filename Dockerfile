@@ -1,3 +1,3 @@
-FROM node:7
+FROM amd64/node:7
 ADD app.js /app.js
 ENTRYPOINT ["node", "app.js"]
